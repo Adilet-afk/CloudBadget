@@ -1,0 +1,79 @@
+.header {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.header__nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  display: flex;
+  column-gap: 9px;
+}
+.header__title {
+  font-style: normal;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  line-height: 22px;
+  margin-bottom: 0;
+}
+.header__menu {
+  display: flex;
+  column-gap: 25px;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+.header__item {
+  font-style: normal;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  line-height: 17px;
+}
+.header__img {
+  width: 29px;
+  height: 20px;
+}
+.header__form {
+  display: flex;
+  column-gap: 25px;
+  align-items: center;
+}
+.header__btn {
+  font-style: normal;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  line-height: 17px;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  outline: none;
+  background-color: transparent;
+  font-weight: normal;
+  cursor: pointer;
+}
+.header__langSelect {
+  width: 96px;
+  height: 32px;
+  background-color: transparent;
+  padding-left: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.header__lang {
+  color: #000000;
+  background-color: white;
+}

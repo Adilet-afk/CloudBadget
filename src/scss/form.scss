@@ -1,0 +1,74 @@
+.contact{
+    padding: 117px 0 78px;
+    &__title{
+        font-family: Lato, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43px;
+        color: black;
+        margin-bottom: 50px;
+    }
+    &__subtitle{
+        font-family: Lato, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: justify;
+        color: black;
+    }
+    &__form{
+        width: 540px;
+    }
+    &__form-block{
+        height: 60px;
+        margin-bottom: 25px;
+        &:nth-child(3) {
+            margin-bottom: 27px;
+        }
+        &:first-child{
+            display: flex;
+        }
+    }
+    &__input, &__select{
+        width: 100%;
+        height: 100%;
+        border: 1px solid #333333;
+        border-radius: 6px;
+        padding-left: 31px;
+        outline: none;
+    }
+    &__form-block:first-child label{
+        width: 50%;
+        margin-right: 30px;
+        &:nth-child(2){
+            margin-right: 0;
+        }
+    }
+    &__form-block:first-child label &__input{
+        width: 100%;
+    }
+    &__btn{
+        width: 160px;
+        height: 50px;
+        font-family: Lato, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #000000;
+        background: #ED4C5C;
+        border: 1.5px solid #ED4C5C;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+    &__btn:hover{
+        border-color: rgba(0, 0, 0, 0.8);
+        box-shadow: 0 1px 1px rgba(207, 6, 6, 0.075) inset, 0 0 8px rgba(0, 0, 0, 0.6);
+        outline: 0 none;
+        text-shadow: 0 50px 0 #FFF, 1px 51px 20px #FFF;
+        background: rgb(216, 22, 22);
+    }
+}

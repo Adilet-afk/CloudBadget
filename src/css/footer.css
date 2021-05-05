@@ -1,0 +1,46 @@
+.footer {
+  padding: 85px 0 86px;
+}
+.footer__menu {
+  list-style-type: none;
+  padding-left: 0;
+}
+.footer__menu-title {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+  margin-bottom: 33px;
+}
+.footer__menu-info {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: #101010;
+  margin-bottom: 140px;
+}
+.footer__menu-item {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  text-transform: capitalize;
+  color: #000000;
+  text-decoration: none;
+  margin-bottom: 11px;
+}
+.footer__img {
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+  margin-top: 21px;
+}
+.footer__image {
+  width: 216px;
+  height: 31px;
+}
